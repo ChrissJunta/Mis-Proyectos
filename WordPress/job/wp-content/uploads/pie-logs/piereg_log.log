@@ -1,0 +1,16 @@
+[Mar 14-12-2021 17:28:01] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : send_admin_notifications] [Line : 4109] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mar 14-12-2021 17:28:03] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : pie_save_registration] [Line : 3990] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 16:31:10] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : send_admin_notifications] [Line : 4114] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 16:31:12] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : pie_save_registration] [Line : 3995] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 16:34:26] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : send_admin_notifications] [Line : 4114] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 16:34:28] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : pie_save_registration] [Line : 3995] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 17:35:23] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : send_admin_notifications] [Line : 4114] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
+[Mié 15-12-2021 17:35:25] [Client : ::1] [URI : /job/registration/] [error] 'The e-mail could not be sent. Possible reason: mail() function may have disabled by your host.' [Function : pie_save_registration] [Line : 3995] [File : C:\xampp\htdocs\job\wp-content\plugins\pie-register\pie-register.php]
+
