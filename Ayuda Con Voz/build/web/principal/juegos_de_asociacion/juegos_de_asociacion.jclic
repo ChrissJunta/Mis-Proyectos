@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="juegos_de_asociacion" version="0.1.3">
+ <settings>
+  <title>JUEGOS DE ASOCIACION</title>
+  <revision description="created" date="2/3/20" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="FAMILIA" />
+  <item name="FRUTAS" />
+  <item name="ASEO" />
+  <item name="ELEMENTOS" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="ASEO" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="284.0" cellHeight="290.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="bañarse-resized.jpg" />
+    <cell image="vestirse-resized.jpg" />
+    <cell image="peinarse-resized.jpg" />
+    <cell image="cepillarse los dientes-resized.jpg" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="253.0" cellHeight="207.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Bañarse.mp3" />
+     <p>BAÑARSE</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Vestirse.mp3" />
+     <p>VESTIRSE</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Peinarse.mp3" />
+     <p>PEINARSE</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Cepillarse los dientes.mp3" />
+     <p>CEPILLARSE LOS DIENTES</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ELEMENTOS" code="">
+   <description />
+   <messages>
+    <cell type="final">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="Bravo (aplausos).wav" />
+     <p>BRAVO</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="No te rindas, tu puedes.wav" />
+     <p>NO TE RINDAS TU PUEDES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="275.0" cellHeight="276.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="agua-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Agua.mp3" />
+    </cell>
+    <cell image="fuego-resized.jpg" />
+    <cell image="tierra-resized.jpg" />
+    <cell image="aire-resized.jpg" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="271.0" cellHeight="234.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>AGUA</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Fuego.mp3" />
+     <p>FUEGO</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Tierra.mp3" />
+     <p>TIERRA</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Aire.mp3" />
+     <p>AIRE</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="FAMILIA">
+   <messages>
+    <cell image="Felicidades, lo hiciste muy bien.wav" type="final">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="Felicidades, lo hiciste muy bien.wav" />
+     <p>FELICIDADES LO HICISTE MUY BIEN</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="No te rindas, tu puedes.wav" />
+     <p>NO TE RINDAS TU PUEDES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="291.0" cellHeight="290.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="mamá-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Mamá.wav" />
+    </cell>
+    <cell image="papá-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Papá.wav" />
+    </cell>
+    <cell image="hermano-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Hermano.wav" />
+    </cell>
+    <cell image="hermana-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Hermana.wav" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="2" cellWidth="215.0" cellHeight="261.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell border="false">
+     <style transparent="true" />
+     <p>MAMÁ</p>
+    </cell>
+    <cell border="false">
+     <style transparent="true" />
+     <p>PAPÁ</p>
+    </cell>
+    <cell border="false">
+     <style transparent="true" />
+     <p>HERMANO</p>
+    </cell>
+    <cell border="false">
+     <style transparent="true" />
+     <p>HERMANA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="FRUTAS">
+   <messages>
+    <cell type="final">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="Bravo (aplausos).wav" />
+     <p>BRAVO</p>
+    </cell>
+    <cell image="Fallaste, intentalo otra vez.wav" type="finalError">
+     <style />
+     <media type="PLAY_AUDIO" level="1" file="Fallaste, intentalo otra vez.wav" />
+     <p>FALLSTE INTENTALO OTRAVEZ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="278.0" cellHeight="274.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="durazno-resized1.jpg" />
+    <cell image="piña-resized.jpg" />
+    <cell image="sandia-resized.jpg" />
+    <cell image="pera-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Pera.mp3" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="2" cellWidth="277.0" cellHeight="227.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell border="false">
+     <style transparent="true">
+      <font family="Arial" size="48" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Durazno.mp3" />
+     <p>DURAZNO</p>
+    </cell>
+    <cell border="false">
+     <style transparent="true">
+      <font family="Arial" size="48" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Piña.mp3" />
+     <p>PIÑA</p>
+    </cell>
+    <cell imgAlign="left,middle" border="false">
+     <style transparent="true">
+      <font family="Arial" size="48" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Sandia.mp3" />
+     <p>SANDIA</p>
+    </cell>
+    <cell border="false">
+     <style transparent="true">
+      <font family="Arial" size="48" />
+     </style>
+     <p>PERA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="agua-resized.jpg" file="agua-resized.jpg" />
+  <media name="aire-resized.jpg" file="aire-resized.jpg" />
+  <media name="bañarse-resized.jpg" file="banarse-resized.jpg" />
+  <media name="cepillarse los dientes-resized.jpg" file="cepillarse_los_dientes-resized.jpg" />
+  <media name="durazno-resized1.jpg" file="durazno-resized1.jpg" />
+  <media name="fuego-resized.jpg" file="fuego-resized.jpg" />
+  <media name="hermana-resized.jpg" file="hermana-resized.jpg" />
+  <media name="hermano-resized.jpg" file="hermano-resized.jpg" />
+  <media name="mamá-resized.jpg" file="mama-resized.jpg" />
+  <media name="papá-resized.jpg" file="papa-resized.jpg" />
+  <media name="peinarse-resized.jpg" file="peinarse-resized.jpg" />
+  <media name="pera-resized.jpg" file="pera-resized.jpg" />
+  <media name="piña-resized.jpg" file="pina-resized.jpg" />
+  <media name="sandia-resized.jpg" file="sandia-resized.jpg" />
+  <media name="tierra-resized.jpg" file="tierra-resized.jpg" />
+  <media name="vestirse-resized.jpg" file="vestirse-resized.jpg" />
+  <media name="Agua.mp3" file="agua.mp3" />
+  <media name="Aire.mp3" file="aire.mp3" />
+  <media name="Bañarse.mp3" file="banarse.mp3" />
+  <media name="Cepillarse los dientes.mp3" file="cepillarse_los_dientes.mp3" />
+  <media name="Durazno.mp3" file="durazno.mp3" />
+  <media name="Fuego.mp3" file="fuego.mp3" />
+  <media name="Peinarse.mp3" file="peinarse.mp3" />
+  <media name="Pera.mp3" file="pera.mp3" />
+  <media name="Piña.mp3" file="pina.mp3" />
+  <media name="Sandia.mp3" file="sandia.mp3" />
+  <media name="Tierra.mp3" file="tierra.mp3" />
+  <media name="Vestirse.mp3" file="vestirse.mp3" />
+  <media name="Bravo (aplausos).wav" file="bravo__aplausos_.wav" />
+  <media name="Fallaste, intentalo otra vez.wav" file="fallaste__intentalo_otra_vez.wav" />
+  <media name="Felicidades, lo hiciste muy bien.wav" file="felicidades__lo_hiciste_muy_bien.wav" />
+  <media name="Hermana.wav" file="hermana.wav" />
+  <media name="Hermano.wav" file="hermano.wav" />
+  <media name="Mamá.wav" file="mama.wav" />
+  <media name="No te rindas, tu puedes.wav" file="no_te_rindas__tu_puedes.wav" />
+  <media name="Papá.wav" file="papa.wav" />
+ </mediaBag>
+</JClicProject>
+

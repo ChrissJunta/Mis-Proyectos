@@ -1,0 +1,92 @@
+.col1, .col2, .col3, .cols {
+	float:left
+}
+.cols {
+	width:290px
+}
+.col1 {
+	width:600px
+}
+.col2 {
+	width:270px
+}
+.col_1 {
+	width:232px;
+	float:left;
+	line-height:30px;
+	font-size:14px
+}
+.col_2 {
+	width:107px;
+	float:left
+}
+.col_3 {
+	width:179px;
+	float:left
+}
+.col_4 {
+	width:263px;
+	float:left
+}
+.col_address {
+	width:75px;
+	float:left
+}
+/* index.html */
+#page1 {
+	background:url(../images/bg_top1.jpg) top repeat-x #fff
+}
+#page1 header {
+	height:641px
+}
+#page1 .body1 {
+	background:url(../images/bg_top_img1.jpg) top center no-repeat
+}
+#page1 #slogan {
+	background:url(../images/line_top1.gif) 0 0 no-repeat
+}
+#pagejuego 
+{
+
+
+		/* Ubicación de la imagen */
+		
+		background:url(images/fondoparaanimales.jpg);
+		
+		/* Para dejar la imagen de fondo centrada, vertical y
+		
+		horizontalmente */
+		
+		background-position: center center;
+		
+		/* Para que la imagen de fondo no se repita */
+		
+		background-repeat: no-repeat;
+		
+		/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+		
+		background-attachment: fixed;
+		
+		/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+		
+		background-size: cover;
+		
+		/* Se muestra un color de fondo mientras se está cargando la imagen
+		
+		de fondo o si hay problemas para cargarla */
+	
+		
+	
+}
+/* index-1.html */
+#page2 .cols {
+	width:250px
+}
+/* index-2.html */
+/* index-3.html */
+/* index-4.html */
+#page5 .cols {
+	width:243px
+}
+/* index-5.html */
+/* index-6.html */

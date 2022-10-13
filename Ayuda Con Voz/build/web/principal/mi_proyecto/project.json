@@ -1,0 +1,40 @@
+{
+  "title": "mi proyecto",
+  "date": "3/12/19",
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "mi_proyecto.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 6,
+  "mediaFiles": 16,
+  "totalSize": 441705,
+  "files": [
+    "35-353045_mom-cartoon-clipart-imagenes-de-mam-animado-resized.jpg",
+    "bano-resized.jpg",
+    "cama-resized.jpg",
+    "cocina-resized.jpg",
+    "comedor.jpg",
+    "favicon.ico",
+    "hermanos.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "jh-resized.jpg",
+    "manzana-resized.jpg",
+    "mi_proyecto.jclic",
+    "mi_proyecto.jclic.js",
+    "papa-resized.jpg",
+    "perrito-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "vegetales.jpg"
+  ]
+}
